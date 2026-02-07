@@ -1,0 +1,13 @@
+src/
+examples/
+tests/
+coverage/
+.eslintrc.js
+tsconfig.json
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tsbuildinfo
+.git/
+.github/
