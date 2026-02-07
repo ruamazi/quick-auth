@@ -2,10 +2,18 @@
 
 Quick and easy authentication setup for Node.js applications.
 
+[![GitHub](https://img.shields.io/badge/GitHub-ruamazi%2Fquick--auth-blue)](https://github.com/ruamazi/quick-auth)
+
 ## Installation
 
 ```bash
 npm install @opencode/quick-auth
+```
+
+Or install from GitHub:
+
+```bash
+npm install github:ruamazi/quick-auth
 ```
 
 ## Quick Start
