@@ -238,6 +238,88 @@ node examples/express-example.js
 node examples/custom-fields-example.js
 ```
 
-## License
+## 🤝 Contributing
 
-MIT
+We welcome contributions from everyone! This is an open source project and we appreciate your help in making it better.
+
+### How to Contribute
+
+#### Reporting Issues
+- 🐛 **Bug reports**: Create an issue with clear steps to reproduce
+- 💡 **Feature requests**: Describe the feature and its use case
+- 📖 **Documentation**: Suggest improvements or corrections
+- ❓ **Questions**: Open a discussion or issue
+
+#### Development Setup
+
+```bash
+# Fork and clone the repository
+git clone https://github.com/YOUR_USERNAME/quick-auth.git
+cd quick-auth
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Run tests
+npm test
+
+# Watch mode for development
+npm run dev
+```
+
+#### Pull Request Process
+
+1. **Fork** the repository
+2. **Create a branch**: `git checkout -b feature/amazing-feature`
+3. **Make your changes** following our guidelines
+4. **Build and test**: `npm run build`
+5. **Commit**: `git commit -m 'Add: amazing feature'`
+6. **Push**: `git push origin feature/amazing-feature`
+7. **Open a Pull Request** with a clear description
+
+### Code Guidelines
+
+- Follow existing TypeScript patterns and style
+- Add tests for new features
+- Update documentation (README, examples)
+- Keep the code focused and simple
+- Ensure TypeScript compiles without errors
+
+### Areas We Need Help With
+
+- 🔌 **Database Adapters**: Prisma, Mongoose, Sequelize, TypeORM
+- 🔐 **Auth Strategies**: OAuth (Google, GitHub, Discord, etc.), Magic Links
+- 🚀 **Framework Support**: Fastify, Koa, Next.js API routes, NestJS
+- 📊 **Analytics**: Login attempts, security monitoring
+- 🧪 **Testing**: More comprehensive test coverage
+- 📝 **Examples**: More real-world usage examples
+- 🌍 **Documentation**: Translations, tutorials, blog posts
+
+### Commit Message Format
+
+We follow conventional commits:
+
+```
+feat: add new OAuth provider
+docs: update README with examples
+fix: resolve token expiration bug
+refactor: simplify validation logic
+test: add tests for custom fields
+```
+
+### Code of Conduct
+
+This project follows the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) Code of Conduct. By participating, you agree to uphold this code.
+
+### Questions?
+
+- Open an issue for questions or discussions
+- Check existing issues before creating new ones
+- Be respectful and constructive in all interactions
+
+## 📄 License
+
+MIT © [ruamazi](https://github.com/ruamazi)
